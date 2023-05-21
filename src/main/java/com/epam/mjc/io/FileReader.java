@@ -28,8 +28,6 @@ public class FileReader {
 				stringBuilder.append(System.lineSeparator());
 			}
 			return stringBuilder.toString();
-		} catch (FileNotFoundException e) {
-			System.out.println(e.getMessage());
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
